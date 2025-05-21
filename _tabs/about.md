@@ -11,10 +11,10 @@ order: 4
 - I'm interested in Web Exploitation, Pwnable  :zap:
 
 ## Description
-I
-   have a strong passion for cybersecurity and Capture The Flag (CTF) competitions. I enjoy exploring the intricacies of network security and ethical hacking. Participating in CTF events allows me to sharpen my problem-solving skills and stay updated on the latest security challenges. I am excited to connect with like-minded individuals and continue learning in this ever-evolving field.
 
-## :computer: Languages and Tools
+     I have a strong passion for cybersecurity and Capture The Flag (CTF) competitions. I enjoy exploring the intricacies of network security and ethical hacking. Participating in CTF events allows me to sharpen my problem-solving skills and stay updated on the latest security challenges. I am excited to connect with like-minded individuals and continue learning in this ever-evolving field.
+
+## Languages and Tools
 
 <p>
   <img src="https://img.shields.io/badge/Assembly-525252?style=flat-square&logoColor=white" alt="assembly">
@@ -35,4 +35,4 @@ I
 </p>
 
 
-# Hope you will love my content!
+# Hope you will love my blog 
