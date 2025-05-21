@@ -16,7 +16,7 @@ timezone:
 
 title: Kevin # the main title
 
-tagline:CTF Player - Pentester # it will display as the subtitle
+tagline: CTF Player - Pentester # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Offensive Security enthusiast, CTF Competitor. I'm interested in Web Exploitation, Pwnable..
