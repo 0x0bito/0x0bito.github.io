@@ -12,7 +12,7 @@ order: 4
 
 ## Description
 
-     I have a strong passion for cybersecurity and Capture The Flag (CTF) competitions. I enjoy exploring the intricacies of network security and ethical hacking. Participating in CTF events allows me to sharpen my problem-solving skills and stay updated on the latest security challenges. I am excited to connect with like-minded individuals and continue learning in this ever-evolving field.
+  I have a strong passion for cybersecurity and Capture The Flag (CTF) competitions. I enjoy exploring the intricacies of network security and ethical hacking. Participating in CTF events allows me to sharpen my problem-solving skills and stay updated on the latest security challenges. I am excited to connect with like-minded individuals and continue learning in this ever-evolving field.
 
 ## Languages and Tools
 
