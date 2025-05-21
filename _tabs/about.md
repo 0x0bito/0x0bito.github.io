@@ -16,7 +16,8 @@ order: 4
 
 ## Languages and Tools
 
-<p>
+<div style="display: flex; flex-wrap: wrap; gap: 6px; align-items: center;">
+
   <img src="https://img.shields.io/badge/Assembly-525252?style=flat-square&logoColor=white" alt="assembly">
   <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white" alt="c">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="c++">
@@ -32,7 +33,7 @@ order: 4
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white" alt="vscode">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" alt="linux">
   <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="windows">
-</p>
 
+</div>
 
 # Hope you will love my blog 
