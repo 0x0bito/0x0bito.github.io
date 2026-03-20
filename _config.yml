@@ -16,7 +16,7 @@ timezone: Asia/Ho_Chi_Minh
 
 title: Kevin # the main title
 
-tagline: Pentester-Security Researcher # it will display as the subtitle
+tagline: Pentester - Security Researcher # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Offensive Security student specializing in web application penetration testing.
