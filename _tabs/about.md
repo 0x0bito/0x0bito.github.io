@@ -4,15 +4,25 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-## Hi, I'm Kevin 
+## Hi, I'm Kevin
 
-- I'm currently majoring in CyberSecurity  :zap:
-- I'am Offensive Security enthusiast, CTF Competitor :zap:
-- I'm interested in Web Exploitation, Pwnable  :zap:
+- 🎓 Information Security student @ HUTECH University
+- 🔴 Offensive Security enthusiast — Web Pentesting & Active Directory
+- 🐛 Security researcher with published CVEs
+- 📚 Currently working through HTB CPTS path
 
-## Description
+## About Me
 
-I have a strong passion for cybersecurity and Capture The Flag (CTF) competitions. I enjoy exploring the intricacies of network security and ethical hacking. Participating in CTF events allows me to sharpen my problem-solving skills and stay updated on the latest security challenges. I am excited to connect with like-minded individuals and continue learning in this ever-evolving field.
+I'm a third-year Information Security student with a focus on offensive security
+and penetration testing. My research centers on finding and responsibly disclosing
+vulnerabilities in open-source web applications — covering SQL Injection, Broken
+Access Control, IDOR, and Remote Code Execution.
+
+Beyond research, I'm actively building hands-on skills through HackTheBox labs,
+diving deep into web exploitation and Active Directory attack chains.
+This blog is where I document my notes, cheatsheets, and writeups along the way.
+
+> *"Break things. Understand why. Document everything."*
 
 ## Languages and Tools
 
