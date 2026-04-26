@@ -221,7 +221,6 @@ Các cấu hình sai phổ biến trên **Dovecot** — IMAP/POP3 server thườ
 ## 5. Cloud Enumeration — Office 365
 
 **Tool:** [o365spray](https://github.com/0xZDH/o365spray)
-```
 
 **Workflow:**
 

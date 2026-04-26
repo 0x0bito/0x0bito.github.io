@@ -6,16 +6,6 @@ tags: [file-transfer, misc, lolbins, windows, linux]
 description: "HTB CPTS note tổng hợp các kỹ thuật file transfer bổ sung."
 pin: false
 ---
-tags:
-
-- file-transfer
-- netcat
-- winrm
-- rdp
-
-
----
-
 # Chuyển File - Phương Pháp Khác (Netcat, WinRM, RDP)
 
 > **Khi nào dùng? Các phương pháp này dùng khi HTTP, HTTPS, SMB bị block hoặc không khả dụng. Luôn thử nhiều method — môi trường thực tế luôn có hạn chế khác nhau.**

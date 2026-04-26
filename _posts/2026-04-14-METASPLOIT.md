@@ -1,7 +1,7 @@
 ---
 title: "Metasploit Framework — Toàn tập"
-date: 2026-04-16 00:00:00 +0700
-categories: [Pentest, Metasploit]
+date: 2026-04-14 00:00:00 +0700
+categories: [HTB_CPTS, Metasploit]
 tags: [metasploit, pentest, meterpreter, msfvenom, evasion]
 ---
 

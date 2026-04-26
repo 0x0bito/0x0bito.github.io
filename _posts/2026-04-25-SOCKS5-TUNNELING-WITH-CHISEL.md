@@ -6,16 +6,6 @@ tags: [pivoting, chisel, socks5, tunneling]
 description: "HTB CPTS note về SOCKS5 tunneling bằng Chisel để pivot qua mạng nội bộ."
 pin: false
 ---
-tags:
-
-- pivoting
-- tunneling
-- chisel
-- socks5
-- proxychains
-- CPTS created: 2025-04-25
-
----
 ---
 # Pivoting — Chisel SOCKS Tunnel
 

@@ -1,7 +1,7 @@
 ---
 title: "Protected File Transfers"
-date: 2026-04-16 00:06:00 +0700
-categories: [Pentest, File Transfer]
+date: 2026-04-14 00:06:00 +0700
+categories: [HTB_CPTS, File Transfer]
 tags: [file-transfer, encryption, openssl, aes, nginx, https, opsec]
 ---
 

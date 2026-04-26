@@ -1,7 +1,7 @@
 ---
 title: "File Transfer bằng Ngôn ngữ Lập trình"
-date: 2026-04-16 00:04:00 +0700
-categories: [Pentest, File Transfer]
+date: 2026-04-13 00:04:00 +0700
+categories: [HTB_CPTS, File Transfer]
 tags: [file-transfer, python, php, ruby, perl, javascript, vbscript, living-off-the-land]
 ---
 

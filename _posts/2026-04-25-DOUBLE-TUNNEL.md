@@ -6,24 +6,6 @@ tags: [pivoting, tunneling, ssh, socks, double-tunnel]
 description: "HTB CPTS note về kỹ thuật double tunnel khi pivot qua nhiều lớp mạng."
 pin: false
 ---
-title: RDP and SOCKS Tunneling with SocksOverRDP
-tags:
-  - CPTS
-  - Pivoting
-  - Tunneling
-  - RDP
-  - SOCKS
-  - Windows
-  - Lateral-Movement
-  - Proxy
-aliases:
-  - SocksOverRDP
-  - RDP SOCKS Tunnel
-  - Double Tunnel
----
-
----
-# RDP and SOCKS Tunneling with SocksOverRDP
 
 ## Mục tiêu
 

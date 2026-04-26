@@ -1,7 +1,7 @@
 ---
 title: "Linux File Transfer Methods"
-date: 2026-04-16 00:02:00 +0700
-categories: [Pentest, File Transfer]
+date: 2026-04-14 00:02:00 +0700
+categories: [HTB_CPTS, File Transfer]
 tags: [file-transfer, linux, wget, curl, scp, base64, python, http]
 ---
 

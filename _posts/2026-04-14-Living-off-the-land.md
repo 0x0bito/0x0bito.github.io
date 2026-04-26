@@ -1,7 +1,7 @@
 ---
 title: "Living off the Land — File Transfer (LOLBins / GTFOBins)"
-date: 2026-04-16 00:03:00 +0700
-categories: [Pentest, File Transfer]
+date: 2026-04-14 00:03:00 +0700
+categories: [HTB_CPTS, File Transfer]
 tags: [lolbins, gtfobins, living-off-the-land, evasion, windows, linux]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Credential Hunting in Network Shares"
 date: 2026-04-16 00:07:00 +0700
-categories: [Pentest, Credentials]
+categories: [HTB_CPTS, Credentials]
 tags: [credentials, smb, snaffler, manspider, netexec, active-directory, shares]
 ---
 

@@ -6,14 +6,6 @@ tags: [reconnaissance, web, information-gathering, osint]
 description: "HTB CPTS note về quy trình information gathering cho mục tiêu web."
 pin: false
 ---
-tags:
-  - recon
-  - web
-  - footprinting
----
-
----
-
 # 🌐 Information Gathering – Web Edition
 
 Web reconnaissance là bước đầu tiên trong mọi pentest engagement — giống như thám tử thu thập manh mối trước khi lập kế hoạch hành động.

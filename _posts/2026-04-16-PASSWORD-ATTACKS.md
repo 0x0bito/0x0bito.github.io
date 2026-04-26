@@ -1,7 +1,7 @@
 ---
 title: "Password Attacks — Wordlists, Hashcat & John the Ripper"
 date: 2026-04-16 00:09:00 +0700
-categories: [Pentest, Credentials]
+categories: [HTB_CPTS, Credentials]
 tags: [hashcat, john-the-ripper, cracking, wordlist, cewl, rules, mask-attack, bitlocker, pivoting]
 ---
 

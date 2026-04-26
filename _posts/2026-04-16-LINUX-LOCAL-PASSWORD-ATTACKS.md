@@ -1,7 +1,7 @@
 ---
 title: "Linux Local Password Attacks"
 date: 2026-04-16 00:08:00 +0700
-categories: [Pentest, Credentials]
+categories: [HTB_CPTS, Credentials]
 tags: [credentials, linux, lazagne, mimipenguin, firefox, shadow, hashcat, john]
 ---
 

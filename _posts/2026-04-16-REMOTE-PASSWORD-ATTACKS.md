@@ -1,7 +1,7 @@
 ---
 title: "Remote Password Attacks"
 date: 2026-04-16 00:11:00 +0700
-categories: [Pentest, Credentials]
+categories: [HTB_CPTS, Credentials]
 tags: [brute-force, password-spray, netexec, hydra, smb, winrm, rdp, ssh, pass-the-hash, default-credentials]
 ---
 

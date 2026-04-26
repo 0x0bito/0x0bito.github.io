@@ -1,7 +1,7 @@
 ---
 title: "Windows File Transfer Methods"
-date: 2026-04-16 00:05:00 +0700
-categories: [Pentest, File Transfer]
+date: 2026-04-13 00:05:00 +0700
+categories: [HTB_CPTS, File Transfer]
 tags: [file-transfer, windows, powershell, smb, ftp, webdav, lolbins, bitsadmin]
 ---
 
