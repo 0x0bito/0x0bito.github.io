@@ -1,0 +1,122 @@
+---
+# Main stylesheet override for Jekyll Chirpy
+---
+
+@import "jekyll-theme-chirpy";
+
+/*
+ * Custom blue color palette for YoungKevinn blog.
+ * Scope: color-only overrides. No layout, spacing, typography, or content changes.
+ */
+:root {
+  --yk-blue-50: #eff6ff;
+  --yk-blue-100: #dbeafe;
+  --yk-blue-200: #bfdbfe;
+  --yk-blue-300: #93c5fd;
+  --yk-blue-400: #60a5fa;
+  --yk-blue-500: #3b82f6;
+  --yk-blue-600: #2563eb;
+  --yk-blue-700: #1d4ed8;
+  --yk-blue-800: #1e40af;
+  --yk-blue-900: #1e3a8a;
+  --yk-cyan-400: #22d3ee;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+  html:not([data-mode]),
+  html[data-mode="light"] {
+    --link-color: var(--yk-blue-600);
+    --toc-highlight: var(--yk-blue-600);
+    --checkbox-checked-color: var(--yk-blue-500);
+    --btn-share-hover-color: var(--yk-blue-600);
+    --sidebar-active-color: var(--yk-blue-700);
+    --sidebar-hover-bg: rgba(37, 99, 235, 0.12);
+    --sidebar-btn-color: var(--yk-blue-500);
+    --topbar-text-color: var(--yk-blue-900);
+    --search-icon-color: var(--yk-blue-400);
+    --input-focus-border-color: var(--yk-blue-500);
+    --categories-icon-hover-color: var(--yk-blue-600);
+    --categories-hover-bg: var(--yk-blue-100);
+    --tag-hover: var(--yk-blue-100);
+    --timeline-node-bg: var(--yk-blue-400);
+    --timeline-year-dot-color: #ffffff;
+    --prompt-info-bg: var(--yk-blue-50);
+    --prompt-info-icon-color: var(--yk-blue-600);
+    --btn-paginator-hover-color: var(--yk-blue-100);
+  }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]),
+  html[data-mode="dark"] {
+    --link-color: var(--yk-blue-300);
+    --toc-highlight: var(--yk-blue-300);
+    --checkbox-checked-color: var(--yk-blue-400);
+    --btn-share-hover-color: var(--yk-blue-300);
+    --sidebar-active-color: var(--yk-blue-200);
+    --sidebar-hover-bg: rgba(96, 165, 250, 0.16);
+    --sidebar-btn-color: var(--yk-blue-300);
+    --topbar-text-color: var(--yk-blue-200);
+    --search-icon-color: var(--yk-blue-300);
+    --input-focus-border-color: var(--yk-blue-400);
+    --categories-icon-hover-color: var(--yk-blue-300);
+    --categories-hover-bg: rgba(96, 165, 250, 0.14);
+    --tag-hover: rgba(96, 165, 250, 0.14);
+    --timeline-node-bg: var(--yk-blue-400);
+    --prompt-info-icon-color: var(--yk-blue-300);
+    --btn-paginator-hover-color: rgba(96, 165, 250, 0.14);
+  }
+}
+
+/* Manual dark mode toggle */
+html[data-mode="dark"] {
+  --link-color: var(--yk-blue-300);
+  --toc-highlight: var(--yk-blue-300);
+  --checkbox-checked-color: var(--yk-blue-400);
+  --btn-share-hover-color: var(--yk-blue-300);
+  --sidebar-active-color: var(--yk-blue-200);
+  --sidebar-hover-bg: rgba(96, 165, 250, 0.16);
+  --sidebar-btn-color: var(--yk-blue-300);
+  --topbar-text-color: var(--yk-blue-200);
+  --search-icon-color: var(--yk-blue-300);
+  --input-focus-border-color: var(--yk-blue-400);
+  --categories-icon-hover-color: var(--yk-blue-300);
+  --categories-hover-bg: rgba(96, 165, 250, 0.14);
+  --tag-hover: rgba(96, 165, 250, 0.14);
+  --timeline-node-bg: var(--yk-blue-400);
+  --prompt-info-icon-color: var(--yk-blue-300);
+  --btn-paginator-hover-color: rgba(96, 165, 250, 0.14);
+}
+
+/* Replace Chirpy's default orange hover accent with blue. */
+#page-category a:hover,
+#page-tag a:hover,
+#access-lastmod a:hover,
+.post-tail-wrapper .license-wrapper > a:hover,
+#search-results a:hover,
+footer a:hover,
+#topbar #breadcrumb a:hover,
+.post-meta a:not([class]):hover,
+.content a:not(.img-link):hover {
+  color: var(--link-color) !important;
+  border-bottom-color: var(--link-color);
+}
+
+/* Sidebar and navigation blue emphasis. */
+#sidebar .site-title:hover,
+#sidebar .nav-item.active .nav-link,
+#sidebar .nav-item .nav-link:hover,
+#sidebar .sidebar-bottom a:hover,
+#sidebar .sidebar-bottom #mode-toggle:hover {
+  color: var(--link-color) !important;
+}
+
+/* Blue focus ring for search/input controls. */
+#search-input:focus,
+input:focus,
+textarea:focus {
+  border-color: var(--input-focus-border-color) !important;
+  box-shadow: 0 0 0 0.12rem rgba(59, 130, 246, 0.18) !important;
+}
