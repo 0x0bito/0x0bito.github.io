@@ -1,0 +1,18 @@
+<!-- YoungKevinn Web Pet: oneko.js -->
+<script>
+  (function () {
+    const isSmallScreen = window.innerWidth < 768;
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const disabled = localStorage.getItem('disable-oneko') === '1';
+
+    if (isSmallScreen || reduceMotion || disabled) {
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = "{{ '/assets/js/oneko.js' | relative_url }}";
+    script.async = true;
+    script.setAttribute('data-cat', "{{ '/assets/img/oneko.gif' | relative_url }}");
+    document.body.appendChild(script);
+  })();
+</script>

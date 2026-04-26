@@ -381,3 +381,15 @@ html[data-mode='light'] h3,
 html[data-mode='light'] h4 {
   color: #172554 !important;
 }
+
+/* YoungKevinn Web Pet */
+#oneko {
+  z-index: 9999 !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+  #oneko {
+    display: none !important;
+  }
+}
