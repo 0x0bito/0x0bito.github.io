@@ -10,24 +10,72 @@
 
 /* append your custom style below */
 
-/* YoungKevinn Blue Accent Theme - color only, no layout/background override */
+/* YoungKevinn Strong Blue Theme */
 
+/* Base blue palette */
 :root {
   --yk-blue: #2563eb;
   --yk-blue-hover: #3b82f6;
   --yk-blue-light: #60a5fa;
-  --yk-blue-soft: rgba(37, 99, 235, 0.14);
-  --yk-blue-border: rgba(59, 130, 246, 0.38);
+  --yk-blue-border: rgba(59, 130, 246, 0.45);
   --yk-blue-glow: rgba(59, 130, 246, 0.22);
 }
 
-/* Sidebar blue identity */
+/* Light mode */
+html[data-mode='light'] {
+  --yk-bg: #eef6ff;
+  --yk-card: #ffffff;
+  --yk-card-header: #f3f8ff;
+  --yk-sidebar-1: #06142e;
+  --yk-sidebar-2: #0b1f42;
+  --yk-text-blue: #2563eb;
+}
+
+/* Dark mode */
+html[data-mode='dark'] {
+  --yk-bg: #071426;
+  --yk-card: #0b1730;
+  --yk-card-header: #0e2246;
+  --yk-sidebar-1: #020817;
+  --yk-sidebar-2: #0b1f42;
+  --yk-text-blue: #60a5fa;
+}
+
+/* Fallback nếu Chirpy chưa set data-mode */
+body {
+  --yk-bg: #071426;
+  --yk-card: #0b1730;
+  --yk-card-header: #0e2246;
+  --yk-sidebar-1: #020817;
+  --yk-sidebar-2: #0b1f42;
+  --yk-text-blue: #60a5fa;
+}
+
+/* Main background */
+body,
+#main-wrapper,
+#core-wrapper,
+#topbar-wrapper,
+#search-result-wrapper,
+main,
+#main,
+#page,
+#post,
+#post-wrapper,
+#tail-wrapper,
+#archives,
+#categories,
+#tags {
+  background-color: var(--yk-bg) !important;
+}
+
+/* Sidebar */
 #sidebar {
   background: linear-gradient(
     180deg,
-    #06142e 0%,
-    #081b3a 45%,
-    #0f172a 100%
+    var(--yk-sidebar-1) 0%,
+    #071a38 45%,
+    var(--yk-sidebar-2) 100%
   ) !important;
 }
 
@@ -47,13 +95,60 @@
 #sidebar ul li.nav-item.active a {
   color: #ffffff !important;
   background: linear-gradient(90deg, #2563eb, #1d4ed8) !important;
-  box-shadow: 0 0 18px var(--yk-blue-glow) !important;
+  box-shadow: 0 0 22px var(--yk-blue-glow) !important;
 }
 
 #sidebar .nav-link:hover,
 #sidebar ul li.nav-item a:hover {
   color: #ffffff !important;
-  background-color: var(--yk-blue-soft) !important;
+  background-color: rgba(37, 99, 235, 0.22) !important;
+}
+
+/* Home cards + general cards */
+.post-preview,
+.card,
+#post-list .card,
+#post-list .post-preview,
+.categories .card,
+.category-list .card {
+  background-color: var(--yk-card) !important;
+  border: 1px solid var(--yk-blue-border) !important;
+  box-shadow: 0 8px 28px rgba(37, 99, 235, 0.10) !important;
+}
+
+/* Category row/header tone */
+.categories .card-header,
+.category-list .card-header,
+.card-header {
+  background-color: var(--yk-card-header) !important;
+  border-bottom-color: var(--yk-blue-border) !important;
+}
+
+/* Category rows */
+.categories .list-group-item,
+.category-list .list-group-item,
+.list-group-item {
+  background-color: var(--yk-card) !important;
+  border-color: rgba(59, 130, 246, 0.22) !important;
+}
+
+/* Hover card */
+.post-preview:hover,
+.card:hover,
+.categories .card:hover,
+.category-list .card:hover {
+  border-color: var(--yk-blue-hover) !important;
+  box-shadow: 0 0 26px var(--yk-blue-glow) !important;
+}
+
+/* Right panel */
+#panel-wrapper,
+#panel-wrapper .panel-heading {
+  background-color: var(--yk-bg) !important;
+}
+
+#panel-wrapper {
+  border-left-color: var(--yk-blue-border) !important;
 }
 
 /* Links */
@@ -65,8 +160,9 @@ a,
 #panel-wrapper a,
 #archives a,
 #categories a,
-#tags a {
-  color: var(--yk-blue-hover) !important;
+#tags a,
+.category-trigger {
+  color: var(--yk-text-blue) !important;
 }
 
 a:hover,
@@ -77,39 +173,27 @@ a:hover,
 #panel-wrapper a:hover,
 #archives a:hover,
 #categories a:hover,
-#tags a:hover {
+#tags a:hover,
+.category-trigger:hover {
   color: var(--yk-blue-light) !important;
   text-decoration-color: var(--yk-blue-light) !important;
 }
 
-/* Post/card accent only */
-.post-preview,
-.card,
-.categories .card,
-.category-list .card {
-  border-color: var(--yk-blue-border) !important;
-}
-
-.post-preview:hover,
-.card:hover,
-.categories .card:hover,
-.category-list .card:hover {
-  border-color: var(--yk-blue-hover) !important;
-  box-shadow: 0 0 18px var(--yk-blue-glow) !important;
-}
-
-/* Post titles hover */
+/* Titles */
 .post-preview h1 > a:hover,
 .post-preview h2 > a:hover,
 .post-preview h3 > a:hover,
 .post-preview .post-title:hover {
-  color: var(--yk-blue-hover) !important;
+  color: var(--yk-blue-light) !important;
 }
 
 /* Metadata icons */
 .post-meta i,
 .post-preview .post-meta i,
-#post-meta i {
+#post-meta i,
+#categories i,
+#archives i,
+#tags i {
   color: var(--yk-blue-hover) !important;
 }
 
@@ -118,8 +202,9 @@ a:hover,
 .tag,
 a.tag,
 .post-tags .post-tag {
-  color: var(--yk-blue-hover) !important;
+  color: var(--yk-text-blue) !important;
   border-color: var(--yk-blue-border) !important;
+  background-color: rgba(37, 99, 235, 0.08) !important;
 }
 
 .post-tag:hover,
@@ -128,48 +213,52 @@ a.tag:hover,
 .post-tags .post-tag:hover {
   color: #ffffff !important;
   background-color: var(--yk-blue) !important;
-  border-color: var(--yk-blue-hover) !important;
+  border-color: var(--yk-blue-light) !important;
 }
 
-/* Categories */
-.category-trigger:hover,
-.categories .category-trigger:hover {
-  color: var(--yk-blue-hover) !important;
+/* Search */
+#search-input,
+input.form-control {
+  border-color: var(--yk-blue-border) !important;
+}
+
+#search-input:focus,
+input:focus,
+.form-control:focus {
+  border-color: var(--yk-blue-hover) !important;
+  box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.18) !important;
+}
+
+/* Breadcrumb */
+#breadcrumb {
+  color: var(--yk-blue-light) !important;
 }
 
 /* TOC */
 #toc-wrapper .toc-link:hover,
 #toc-wrapper .toc-link.is-active-link {
-  color: var(--yk-blue-hover) !important;
-  border-left-color: var(--yk-blue-hover) !important;
+  color: var(--yk-blue-light) !important;
+  border-left-color: var(--yk-blue-light) !important;
 }
 
-/* Search/input focus */
-#search-input:focus,
-input:focus,
-.form-control:focus {
-  border-color: var(--yk-blue-hover) !important;
-  box-shadow: 0 0 0 0.2rem var(--yk-blue-soft) !important;
-}
-
-/* Buttons and pagination */
+/* Buttons / pagination */
 .btn:hover,
 .page-item.active .page-link,
 .page-link:hover {
   color: #ffffff !important;
   background-color: var(--yk-blue) !important;
-  border-color: var(--yk-blue-hover) !important;
+  border-color: var(--yk-blue-light) !important;
 }
 
 .page-link {
   border-color: var(--yk-blue-border) !important;
 }
 
-/* Scrollbar accent */
+/* Scrollbar */
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(59, 130, 246, 0.5) !important;
+  background-color: rgba(59, 130, 246, 0.58) !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(96, 165, 250, 0.8) !important;
+  background-color: rgba(96, 165, 250, 0.85) !important;
 }
