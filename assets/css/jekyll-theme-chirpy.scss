@@ -393,3 +393,210 @@ html[data-mode='light'] h4 {
     display: none !important;
   }
 }
+
+/* Edge Pets: small cat + cyber pet */
+.edge-pet {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9998 !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  line-height: 1;
+  opacity: 0.96;
+  transition: filter 0.2s ease;
+}
+
+.edge-pet-icon {
+  display: inline-block;
+}
+
+/* Small cat */
+.edge-pet-cat {
+  filter: drop-shadow(0 2px 8px rgba(96, 165, 250, 0.24));
+}
+
+/* Cyber / hacking pet */
+.edge-pet-cyber {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  border-radius: 999px;
+  background: rgba(2, 8, 23, 0.72);
+  box-shadow:
+    0 0 10px rgba(59, 130, 246, 0.35),
+    inset 0 0 8px rgba(59, 130, 246, 0.18);
+  backdrop-filter: blur(4px);
+}
+
+.edge-pet-cyber .edge-pet-icon {
+  filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.7));
+}
+
+.edge-pet-label {
+  font-size: 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  color: #60a5fa;
+  text-shadow: 0 0 6px rgba(96, 165, 250, 0.65);
+  letter-spacing: 0.2px;
+}
+
+/* Light mode: cyber pet vẫn nổi nhưng không quá gắt */
+html[data-mode='light'] .edge-pet-cyber {
+  background: rgba(239, 246, 255, 0.82);
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow:
+    0 0 12px rgba(37, 99, 235, 0.18),
+    inset 0 0 8px rgba(37, 99, 235, 0.10);
+}
+
+html[data-mode='light'] .edge-pet-label {
+  color: #2563eb;
+  text-shadow: 0 0 5px rgba(37, 99, 235, 0.32);
+}
+
+@media (max-width: 1100px) {
+  .edge-pet {
+    display: none !important;
+  }
+}
+
+/* Edge Pets: small cat + cyber pet */
+.edge-pet {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9998 !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  line-height: 1;
+  opacity: 0.96;
+  transition: filter 0.2s ease;
+}
+
+.edge-pet-icon {
+  display: inline-block;
+}
+
+/* Small cat */
+.edge-pet-cat {
+  filter: drop-shadow(0 2px 8px rgba(96, 165, 250, 0.24));
+}
+
+/* Cyber / hacking pet */
+.edge-pet-cyber {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  border-radius: 999px;
+  background: rgba(2, 8, 23, 0.72);
+  box-shadow:
+    0 0 10px rgba(59, 130, 246, 0.35),
+    inset 0 0 8px rgba(59, 130, 246, 0.18);
+  backdrop-filter: blur(4px);
+}
+
+.edge-pet-cyber .edge-pet-icon {
+  filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.7));
+}
+
+.edge-pet-label {
+  font-size: 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  color: #60a5fa;
+  text-shadow: 0 0 6px rgba(96, 165, 250, 0.65);
+  letter-spacing: 0.2px;
+}
+
+/* Light mode: cyber pet vẫn nổi nhưng không quá gắt */
+html[data-mode='light'] .edge-pet-cyber {
+  background: rgba(239, 246, 255, 0.82);
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow:
+    0 0 12px rgba(37, 99, 235, 0.18),
+    inset 0 0 8px rgba(37, 99, 235, 0.10);
+}
+
+html[data-mode='light'] .edge-pet-label {
+  color: #2563eb;
+  text-shadow: 0 0 5px rgba(37, 99, 235, 0.32);
+}
+
+@media (max-width: 1100px) {
+  .edge-pet {
+    display: none !important;
+  }
+}
+
+/* Edge Pets: small cat + cyber pet */
+.edge-pet {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9998 !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  line-height: 1;
+  opacity: 0.96;
+  transition: filter 0.2s ease;
+}
+
+.edge-pet-icon {
+  display: inline-block;
+}
+
+/* Small cat */
+.edge-pet-cat {
+  filter: drop-shadow(0 2px 8px rgba(96, 165, 250, 0.24));
+}
+
+/* Cyber / hacking pet */
+.edge-pet-cyber {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 6px;
+  border: 1px solid rgba(96, 165, 250, 0.45);
+  border-radius: 999px;
+  background: rgba(2, 8, 23, 0.72);
+  box-shadow:
+    0 0 10px rgba(59, 130, 246, 0.35),
+    inset 0 0 8px rgba(59, 130, 246, 0.18);
+  backdrop-filter: blur(4px);
+}
+
+.edge-pet-cyber .edge-pet-icon {
+  filter: drop-shadow(0 0 6px rgba(96, 165, 250, 0.7));
+}
+
+.edge-pet-label {
+  font-size: 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  color: #60a5fa;
+  text-shadow: 0 0 6px rgba(96, 165, 250, 0.65);
+  letter-spacing: 0.2px;
+}
+
+/* Light mode: cyber pet vẫn nổi nhưng không quá gắt */
+html[data-mode='light'] .edge-pet-cyber {
+  background: rgba(239, 246, 255, 0.82);
+  border-color: rgba(37, 99, 235, 0.35);
+  box-shadow:
+    0 0 12px rgba(37, 99, 235, 0.18),
+    inset 0 0 8px rgba(37, 99, 235, 0.10);
+}
+
+html[data-mode='light'] .edge-pet-label {
+  color: #2563eb;
+  text-shadow: 0 0 5px rgba(37, 99, 235, 0.32);
+}
+
+@media (max-width: 1100px) {
+  .edge-pet {
+    display: none !important;
+  }
+}
