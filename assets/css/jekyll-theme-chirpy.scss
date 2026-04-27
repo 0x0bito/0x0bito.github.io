@@ -600,3 +600,32 @@ html[data-mode='light'] .edge-pet-label {
     display: none !important;
   }
 }
+/* Cyber banner images */
+.cyber-banner-wrapper {
+  margin: 1.5rem 0 2rem;
+}
+
+.cyber-banner {
+  width: 100%;
+  max-height: 360px;
+  border-radius: 1.25rem;
+  border: 1px solid rgba(96, 165, 250, 0.35);
+  box-shadow: 0 14px 40px rgba(37, 99, 235, 0.18);
+  object-fit: cover;
+}
+/* About ending cyber banner */
+.cyber-ending-banner {
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.cyber-ending-banner .cyber-banner {
+  max-height: 300px;
+  object-position: center;
+  opacity: 0.92;
+}
+
+.cyber-ending-banner .cyber-banner:hover {
+  opacity: 1;
+  box-shadow: 0 0 32px rgba(96, 165, 250, 0.28);
+}
