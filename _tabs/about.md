@@ -42,4 +42,4 @@ This blog is where I document my research, notes, and technical writeups along t
 ## Hope you will love my blog
 <div class="cyber-banner-wrapper">
   <img src="{{ '/assets/img/banners/bg-1.gif' | relative_url }}" alt="Cyber workspace banner" class="cyber-banner">
-</div>
+</div>---
