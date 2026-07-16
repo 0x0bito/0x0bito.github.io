@@ -35,4 +35,11 @@ This blog is where I document my research, notes, and technical writeups along t
   <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=flat-square&logo=neovim&logoColor=white" alt="nvim">
   <img src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" alt="prettier">
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=flat-square&logo=visual%20studio%20code&logoColor=white" alt="vscode">
-  <img
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" alt="linux">
+  <img src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white" alt="windows">
+</div>
+
+## Hope you will love my blog
+<div class="cyber-banner-wrapper">
+  <img src="{{ '/assets/img/banners/bg-1.gif' | relative_url }}" alt="Cyber workspace banner" class="cyber-banner">
+</div>
